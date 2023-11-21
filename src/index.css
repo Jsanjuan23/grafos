@@ -1,0 +1,162 @@
+.ht-100vh {
+  height: 130vh;
+}
+
+.titulo {
+  color: #2fa72f;
+  background-color: aqua;
+}
+
+.bg-contenedores {
+  background-color: #c0c0c0;
+}
+
+.configuracion {
+  padding: 20px;
+  margin: 20px;
+  border-radius: 30px;
+}
+
+.lugares {
+  margin: 10px;
+}
+
+#label, #from, #to, #peso {
+  width: 100px;
+  height: 7px;
+}
+
+.titulo-form-nodos {
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.wd-50 {
+  width: 80%;
+}
+
+.contenedorf {
+  background-color: red;
+}
+
+.grid-forms {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.rg-btn-primary {
+  border: none;
+  background-color: #000;
+  width: 200px;
+  height: 40px;
+  font-weight: 600;
+  border-radius: 5px;
+  color: #fff;
+  transition: all .3s;
+}
+
+.rg-btn-primary:hover {
+  background-color: #868686;
+  color: #fff;
+}
+
+.rg-btn-primary:focus {
+  outline: none;
+}
+
+.contenedor-logs {
+  display: flex;
+  width: 100%;
+  height: 280px;
+  border: 1px solid #0ad31b;
+  border-radius: 30px;
+  overflow-y: auto;
+  
+}
+
+.logs-nodos {
+  padding: 15px;
+  width: 40%;
+  
+}
+
+.logs-aristas {
+  padding: 15px;
+  width: 60%;
+
+}
+
+.rg-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  border-radius: 15px;
+  padding: 10px;
+  cursor: pointer;
+  color: #000000;
+  transition: all .3s;
+  margin-bottom: 5px;
+}
+
+.rg-row:hover {
+  background-color: #44be44;
+  color: #000;
+  box-shadow: 20px 1px 0px -15px rgba(0,0,0,0.75) inset;
+  -webkit-box-shadow: 20px 1px 0px -15px rgba(0,0,0,0.75) inset;
+  -moz-box-shadow: 20px 1px 0px -15px rgba(0,0,0,0.75) inset;
+}
+
+.txt-detalle {
+font-size: 12px;
+font-weight:500;
+}
+
+.rg-center-all {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mt-4 {
+margin-left: 10px;
+}
+
+.titulo-camino-corto {
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.contenedor-camino-corto {
+  justify-content: start;
+  align-items: center;
+  margin: 10px;
+
+}
+
+.campos {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+
+}
+
+.text-corto {
+  width: 230px;
+ 
+}
+
+.interrogacion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 40px;
+  margin-left: 20px;
+  background-color: #0aaa05;
+  border-radius: 50%;
+  cursor: pointer;
+  color: #fff;
+}
